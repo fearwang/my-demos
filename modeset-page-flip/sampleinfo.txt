@@ -1,0 +1,47 @@
+module: msm_drm
+Encoders:
+id	crtc	type	possible crtcs	possible clones	
+28	128	DSI	0x00000003	0x00000000
+48	181	Virtual	0x00000003	0x00000000
+
+Connectors:
+id	encoder	status		name		size (mm)	modes	encoders
+29	28	connected	DSI-1          	710x1537		2	28
+  modes:
+	name refresh (Hz) hdisp hss hse htot vdisp vss vse vtot)
+  1080x2340x60x113680cmd 60 1080 1096 1104 1112 2340 2940 2972 3532 113680 flags: ; type: preferred
+  1080x2340x90x113668cmd 90 1080 1096 1104 1112 2340 2344 2348 2356 113668 flags: ; type: 
+49	48	connected	Virtual-1      	0x0		34	48
+  modes:
+	name refresh (Hz) hdisp hss hse htot vdisp vss vse vtot)
+  4096x2160 60 4096 4104 4136 4176 2160 2208 2216 2222 556744 flags: phsync, nvsync; type: driver
+  4096x2160 60 4096 4104 4136 4176 2160 2208 2216 2222 556188 flags: phsync, nvsync; type: driver
+
+CRTCs:
+id	fb	pos	size
+128	0	(0,0)	(1080x2340)
+  1080x2340x60x113680cmd 60 1080 1096 1104 1112 2340 2940 2972 3532 113680 flags: ; type: preferred
+181	0	(0,0)	(4096x2160)
+  4096x2160 60 4096 4104 4136 4176 2160 2208 2216 2222 556744 flags: phsync, nvsync; type: driver
+
+Planes:
+id	crtc	fb	CRTC x,y	x,y	gamma size	possible crtcs
+58	0	0	0,0		0,0	0       	0x00000003
+79	0	0	0,0		0,0	0       	0x00000003
+82	0	0	0,0		0,0	0       	0x00000003
+85	0	0	0,0		0,0	0       	0x00000003
+88	0	0	0,0		0,0	0       	0x00000003
+94	0	0	0,0		0,0	0       	0x00000003
+97	0	0	0,0		0,0	0       	0x00000003
+100	0	0	0,0		0,0	0       	0x00000003
+103	0	0	0,0		0,0	0       	0x00000003
+107	0	0	0,0		0,0	0       	0x00000003
+110	0	0	0,0		0,0	0       	0x00000003
+113	0	0	0,0		0,0	0       	0x00000003
+116	0	0	0,0		0,0	0       	0x00000003
+119	0	0	0,0		0,0	0       	0x00000003
+122	0	0	0,0		0,0	0       	0x00000003
+125	0	0	0,0		0,0	0       	0x00000003
+Frame buffers:
+id	size	pitch
+
