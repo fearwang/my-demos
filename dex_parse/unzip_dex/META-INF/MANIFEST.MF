@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Dex-Location: classes.dex
+Created-By: 1.8.0_212 (Oracle Corporation) + dx 1.14
+

@@ -11,3 +11,6 @@ Just like we can display apps, status bar, and navi bar at sametime on Android.
 A native bin that shows moving box on screen using SurfaceFlinger.
 
 This help me understand how sf and hardware-renderer working.
+
+### dex_parse
+Work like dexdump.
